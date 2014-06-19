@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96385B9B185E54ED001A8C0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96385B9A185E54ED001A8C0B /* Main.storyboard */; };
+		96BBA9B8185E510900DEE145 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BBA9B7185E510900DEE145 /* Foundation.framework */; };
+		96BBA9BA185E510900DEE145 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BBA9B9185E510900DEE145 /* CoreGraphics.framework */; };
+		96BBA9BC185E510900DEE145 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BBA9BB185E510900DEE145 /* UIKit.framework */; };
+		96BBA9C2185E510900DEE145 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96BBA9C0185E510900DEE145 /* InfoPlist.strings */; };
+		96BBA9C4185E510A00DEE145 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BBA9C3185E510A00DEE145 /* main.m */; };
+		96BBA9C8185E510A00DEE145 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BBA9C7185E510A00DEE145 /* AppDelegate.m */; };
+		96BBA9CA185E510A00DEE145 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BBA9C9185E510A00DEE145 /* Images.xcassets */; };
+		96BBA9F9185E517600DEE145 /* ConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BBA9E9185E517600DEE145 /* ConnectViewController.m */; };
+		96BBA9FA185E517600DEE145 /* LogMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BBA9EB185E517600DEE145 /* LogMessage.m */; };
+		96BBA9FB185E517600DEE145 /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BBA9ED185E517600DEE145 /* LogViewController.m */; };
+		96BBA9FC185E517600DEE145 /* Messenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BBA9EF185E517600DEE145 /* Messenger.m */; };
+		96BBA9FD185E517600DEE145 /* MqttTestTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BBA9F1185E517600DEE145 /* MqttTestTrace.m */; };
+		96BBA9FE185E517600DEE145 /* PublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BBA9F3185E517600DEE145 /* PublishViewController.m */; };
+		96BBA9FF185E517600DEE145 /* SubscribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BBA9F5185E517600DEE145 /* SubscribeViewController.m */; };
+		96BBAA00185E517600DEE145 /* Subscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BBA9F7185E517600DEE145 /* Subscription.m */; };
+		96BBABDB185E518B00DEE145 /* glyphicons_003_user.png in Resources */ = {isa = PBXBuildFile; fileRef = 96BBAA05185E518900DEE145 /* glyphicons_003_user.png */; };
+		96BBABF6185E518B00DEE145 /* glyphicons_030_pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 96BBAA20185E518900DEE145 /* glyphicons_030_pencil.png */; };
+		96BBACAC185E518B00DEE145 /* glyphicons_212_down_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 96BBAAD6185E518900DEE145 /* glyphicons_212_down_arrow.png */; };
+		96BBACAD185E518B00DEE145 /* glyphicons_213_up_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 96BBAAD7185E518900DEE145 /* glyphicons_213_up_arrow.png */; };
+		BE05216519421AF900BDC1E5 /* libiosMQTT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE05216319421AF900BDC1E5 /* libiosMQTT.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96385B9A185E54ED001A8C0B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		96BBA9B4185E510900DEE145 /* iOS-MQTT-Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-MQTT-Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BBA9B7185E510900DEE145 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96BBA9B9185E510900DEE145 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		96BBA9BB185E510900DEE145 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		96BBA9BF185E510900DEE145 /* iOS-MQTT-Client-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS-MQTT-Client-Info.plist"; sourceTree = "<group>"; };
+		96BBA9C1185E510900DEE145 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96BBA9C3185E510A00DEE145 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96BBA9C5185E510A00DEE145 /* iOS-MQTT-Client-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-MQTT-Client-Prefix.pch"; sourceTree = "<group>"; };
+		96BBA9C6185E510A00DEE145 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96BBA9C7185E510A00DEE145 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96BBA9C9185E510A00DEE145 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		96BBA9D0185E510A00DEE145 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		96BBA9E8185E517600DEE145 /* ConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectViewController.h; sourceTree = "<group>"; };
+		96BBA9E9185E517600DEE145 /* ConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectViewController.m; sourceTree = "<group>"; };
+		96BBA9EA185E517600DEE145 /* LogMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogMessage.h; sourceTree = "<group>"; };
+		96BBA9EB185E517600DEE145 /* LogMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogMessage.m; sourceTree = "<group>"; };
+		96BBA9EC185E517600DEE145 /* LogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogViewController.h; sourceTree = "<group>"; };
+		96BBA9ED185E517600DEE145 /* LogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogViewController.m; sourceTree = "<group>"; };
+		96BBA9EE185E517600DEE145 /* Messenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Messenger.h; sourceTree = "<group>"; };
+		96BBA9EF185E517600DEE145 /* Messenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Messenger.m; sourceTree = "<group>"; };
+		96BBA9F0185E517600DEE145 /* MqttTestTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MqttTestTrace.h; sourceTree = "<group>"; };
+		96BBA9F1185E517600DEE145 /* MqttTestTrace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MqttTestTrace.m; sourceTree = "<group>"; };
+		96BBA9F2185E517600DEE145 /* PublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishViewController.h; sourceTree = "<group>"; };
+		96BBA9F3185E517600DEE145 /* PublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishViewController.m; sourceTree = "<group>"; };
+		96BBA9F4185E517600DEE145 /* SubscribeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscribeViewController.h; sourceTree = "<group>"; };
+		96BBA9F5185E517600DEE145 /* SubscribeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscribeViewController.m; sourceTree = "<group>"; };
+		96BBA9F6185E517600DEE145 /* Subscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subscription.h; sourceTree = "<group>"; };
+		96BBA9F7185E517600DEE145 /* Subscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subscription.m; sourceTree = "<group>"; };
+		96BBAA05185E518900DEE145 /* glyphicons_003_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_003_user.png; sourceTree = "<group>"; };
+		96BBAA20185E518900DEE145 /* glyphicons_030_pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_030_pencil.png; sourceTree = "<group>"; };
+		96BBAAD6185E518900DEE145 /* glyphicons_212_down_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_212_down_arrow.png; sourceTree = "<group>"; };
+		96BBAAD7185E518900DEE145 /* glyphicons_213_up_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_213_up_arrow.png; sourceTree = "<group>"; };
+		BE05216319421AF900BDC1E5 /* libiosMQTT.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libiosMQTT.a; sourceTree = "<group>"; };
+		BE05216419421AF900BDC1E5 /* MqttOCClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MqttOCClient.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96BBA9B1185E510900DEE145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BBA9BA185E510900DEE145 /* CoreGraphics.framework in Frameworks */,
+				96BBA9BC185E510900DEE145 /* UIKit.framework in Frameworks */,
+				96BBA9B8185E510900DEE145 /* Foundation.framework in Frameworks */,
+				BE05216519421AF900BDC1E5 /* libiosMQTT.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96BBA9AB185E510900DEE145 = {
+			isa = PBXGroup;
+			children = (
+				96BBA9BD185E510900DEE145 /* iOS-MQTT-Client */,
+				96BBA9B6185E510900DEE145 /* Frameworks */,
+				96BBA9B5185E510900DEE145 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96BBA9B5185E510900DEE145 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96BBA9B4185E510900DEE145 /* iOS-MQTT-Client.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96BBA9B6185E510900DEE145 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96BBA9B7185E510900DEE145 /* Foundation.framework */,
+				96BBA9B9185E510900DEE145 /* CoreGraphics.framework */,
+				96BBA9BB185E510900DEE145 /* UIKit.framework */,
+				96BBA9D0185E510A00DEE145 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96BBA9BD185E510900DEE145 /* iOS-MQTT-Client */ = {
+			isa = PBXGroup;
+			children = (
+				96385B9A185E54ED001A8C0B /* Main.storyboard */,
+				96BBAA01185E518900DEE145 /* icons */,
+				96BBA9E8185E517600DEE145 /* ConnectViewController.h */,
+				96BBA9E9185E517600DEE145 /* ConnectViewController.m */,
+				96BBA9EA185E517600DEE145 /* LogMessage.h */,
+				96BBA9EB185E517600DEE145 /* LogMessage.m */,
+				96BBA9EC185E517600DEE145 /* LogViewController.h */,
+				96BBA9ED185E517600DEE145 /* LogViewController.m */,
+				96BBA9EE185E517600DEE145 /* Messenger.h */,
+				96BBA9EF185E517600DEE145 /* Messenger.m */,
+				96BBA9F0185E517600DEE145 /* MqttTestTrace.h */,
+				96BBA9F1185E517600DEE145 /* MqttTestTrace.m */,
+				96BBA9F2185E517600DEE145 /* PublishViewController.h */,
+				96BBA9F3185E517600DEE145 /* PublishViewController.m */,
+				96BBA9F4185E517600DEE145 /* SubscribeViewController.h */,
+				96BBA9F5185E517600DEE145 /* SubscribeViewController.m */,
+				96BBA9F6185E517600DEE145 /* Subscription.h */,
+				96BBA9F7185E517600DEE145 /* Subscription.m */,
+				96BBA9C6185E510A00DEE145 /* AppDelegate.h */,
+				96BBA9C7185E510A00DEE145 /* AppDelegate.m */,
+				BE05216319421AF900BDC1E5 /* libiosMQTT.a */,
+				BE05216419421AF900BDC1E5 /* MqttOCClient.h */,
+				96BBA9C9185E510A00DEE145 /* Images.xcassets */,
+				96BBA9BE185E510900DEE145 /* Supporting Files */,
+			);
+			path = "iOS-MQTT-Client";
+			sourceTree = "<group>";
+		};
+		96BBA9BE185E510900DEE145 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96BBA9BF185E510900DEE145 /* iOS-MQTT-Client-Info.plist */,
+				96BBA9C0185E510900DEE145 /* InfoPlist.strings */,
+				96BBA9C3185E510A00DEE145 /* main.m */,
+				96BBA9C5185E510A00DEE145 /* iOS-MQTT-Client-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96BBAA01185E518900DEE145 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				96BBAA05185E518900DEE145 /* glyphicons_003_user.png */,
+				96BBAA20185E518900DEE145 /* glyphicons_030_pencil.png */,
+				96BBAAD6185E518900DEE145 /* glyphicons_212_down_arrow.png */,
+				96BBAAD7185E518900DEE145 /* glyphicons_213_up_arrow.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96BBA9B3185E510900DEE145 /* iOS-MQTT-Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96BBA9E0185E510A00DEE145 /* Build configuration list for PBXNativeTarget "iOS-MQTT-Client" */;
+			buildPhases = (
+				96BBA9B0185E510900DEE145 /* Sources */,
+				96BBA9B1185E510900DEE145 /* Frameworks */,
+				96BBA9B2185E510900DEE145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-MQTT-Client";
+			productName = "iOS-MQTT-Client";
+			productReference = 96BBA9B4185E510900DEE145 /* iOS-MQTT-Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96BBA9AC185E510900DEE145 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Bryan Boyd";
+				TargetAttributes = {
+					96BBA9B3185E510900DEE145 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 96BBA9AF185E510900DEE145 /* Build configuration list for PBXProject "iOS-MQTT-Client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96BBA9AB185E510900DEE145;
+			productRefGroup = 96BBA9B5185E510900DEE145 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96BBA9B3185E510900DEE145 /* iOS-MQTT-Client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96BBA9B2185E510900DEE145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BBA9C2185E510900DEE145 /* InfoPlist.strings in Resources */,
+				96BBACAD185E518B00DEE145 /* glyphicons_213_up_arrow.png in Resources */,
+				96BBABF6185E518B00DEE145 /* glyphicons_030_pencil.png in Resources */,
+				96BBABDB185E518B00DEE145 /* glyphicons_003_user.png in Resources */,
+				96BBA9CA185E510A00DEE145 /* Images.xcassets in Resources */,
+				96385B9B185E54ED001A8C0B /* Main.storyboard in Resources */,
+				96BBACAC185E518B00DEE145 /* glyphicons_212_down_arrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96BBA9B0185E510900DEE145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BBA9FA185E517600DEE145 /* LogMessage.m in Sources */,
+				96BBA9C8185E510A00DEE145 /* AppDelegate.m in Sources */,
+				96BBA9FC185E517600DEE145 /* Messenger.m in Sources */,
+				96BBAA00185E517600DEE145 /* Subscription.m in Sources */,
+				96BBA9C4185E510A00DEE145 /* main.m in Sources */,
+				96BBA9F9185E517600DEE145 /* ConnectViewController.m in Sources */,
+				96BBA9FB185E517600DEE145 /* LogViewController.m in Sources */,
+				96BBA9FD185E517600DEE145 /* MqttTestTrace.m in Sources */,
+				96BBA9FE185E517600DEE145 /* PublishViewController.m in Sources */,
+				96BBA9FF185E517600DEE145 /* SubscribeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96BBA9C0185E510900DEE145 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96BBA9C1185E510900DEE145 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96BBA9DE185E510A00DEE145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96BBA9DF185E510A00DEE145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96BBA9E1185E510A00DEE145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-MQTT-Client/iOS-MQTT-Client-Prefix.pch";
+				INFOPLIST_FILE = "iOS-MQTT-Client/iOS-MQTT-Client-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/iOS-MQTT-Client",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		96BBA9E2185E510A00DEE145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-MQTT-Client/iOS-MQTT-Client-Prefix.pch";
+				INFOPLIST_FILE = "iOS-MQTT-Client/iOS-MQTT-Client-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/iOS-MQTT-Client",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96BBA9AF185E510900DEE145 /* Build configuration list for PBXProject "iOS-MQTT-Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BBA9DE185E510A00DEE145 /* Debug */,
+				96BBA9DF185E510A00DEE145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96BBA9E0185E510A00DEE145 /* Build configuration list for PBXNativeTarget "iOS-MQTT-Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BBA9E1185E510A00DEE145 /* Debug */,
+				96BBA9E2185E510A00DEE145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96BBA9AC185E510900DEE145 /* Project object */;
+}
