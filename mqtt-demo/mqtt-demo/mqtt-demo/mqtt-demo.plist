@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>host-jdc</key>
+	<string>jasonchaney.info</string>
+	<key>host-citi</key>
+	<string>vm-3b11-b25f.nam.nsroot.net</string>
+	<key>host</key>
+	<string>jasonchaney.info</string>
+	<key>port</key>
+	<string>1883</string>
+	<key>public_topic</key>
+	<string>com/citi/example/messages</string>
+	<key>private_topic</key>
+	<string>com/citi/example/apple/</string>
+	<key>publish_topic</key>
+	<string>com/citi/example/inbox</string>
+</dict>
+</plist>
