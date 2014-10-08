@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE19650019D22FE100938600 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1964FF19D22FE100938600 /* main.m */; };
+		BE19650319D22FE100938600 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE19650219D22FE100938600 /* AppDelegate.m */; };
+		BE19650619D22FE100938600 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE19650519D22FE100938600 /* RootViewController.m */; };
+		BE19650919D22FE100938600 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE19650819D22FE100938600 /* DataViewController.m */; };
+		BE19650C19D22FE100938600 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE19650B19D22FE100938600 /* ModelController.m */; };
+		BE19650F19D22FE100938600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE19650D19D22FE100938600 /* Main.storyboard */; };
+		BE19651119D22FE100938600 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE19651019D22FE100938600 /* Images.xcassets */; };
+		BE19651419D22FE100938600 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE19651219D22FE100938600 /* LaunchScreen.xib */; };
+		BE19652019D22FE100938600 /* JDC2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE19651F19D22FE100938600 /* JDC2Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE19651A19D22FE100938600 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE1964F219D22FE100938600 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE1964F919D22FE100938600;
+			remoteInfo = JDC2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE1964FA19D22FE100938600 /* JDC2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDC2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1964FE19D22FE100938600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE1964FF19D22FE100938600 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE19650119D22FE100938600 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE19650219D22FE100938600 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE19650419D22FE100938600 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		BE19650519D22FE100938600 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		BE19650719D22FE100938600 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		BE19650819D22FE100938600 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		BE19650A19D22FE100938600 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		BE19650B19D22FE100938600 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		BE19650E19D22FE100938600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE19651019D22FE100938600 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE19651319D22FE100938600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BE19651919D22FE100938600 /* JDC2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDC2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE19651E19D22FE100938600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE19651F19D22FE100938600 /* JDC2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDC2Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE1964F719D22FE100938600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE19651619D22FE100938600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE1964F119D22FE100938600 = {
+			isa = PBXGroup;
+			children = (
+				BE1964FC19D22FE100938600 /* JDC2 */,
+				BE19651C19D22FE100938600 /* JDC2Tests */,
+				BE1964FB19D22FE100938600 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE1964FB19D22FE100938600 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE1964FA19D22FE100938600 /* JDC2.app */,
+				BE19651919D22FE100938600 /* JDC2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE1964FC19D22FE100938600 /* JDC2 */ = {
+			isa = PBXGroup;
+			children = (
+				BE19650119D22FE100938600 /* AppDelegate.h */,
+				BE19650219D22FE100938600 /* AppDelegate.m */,
+				BE19650419D22FE100938600 /* RootViewController.h */,
+				BE19650519D22FE100938600 /* RootViewController.m */,
+				BE19650719D22FE100938600 /* DataViewController.h */,
+				BE19650819D22FE100938600 /* DataViewController.m */,
+				BE19650A19D22FE100938600 /* ModelController.h */,
+				BE19650B19D22FE100938600 /* ModelController.m */,
+				BE19650D19D22FE100938600 /* Main.storyboard */,
+				BE19651019D22FE100938600 /* Images.xcassets */,
+				BE19651219D22FE100938600 /* LaunchScreen.xib */,
+				BE1964FD19D22FE100938600 /* Supporting Files */,
+			);
+			path = JDC2;
+			sourceTree = "<group>";
+		};
+		BE1964FD19D22FE100938600 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE1964FE19D22FE100938600 /* Info.plist */,
+				BE1964FF19D22FE100938600 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE19651C19D22FE100938600 /* JDC2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BE19651F19D22FE100938600 /* JDC2Tests.m */,
+				BE19651D19D22FE100938600 /* Supporting Files */,
+			);
+			path = JDC2Tests;
+			sourceTree = "<group>";
+		};
+		BE19651D19D22FE100938600 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE19651E19D22FE100938600 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE1964F919D22FE100938600 /* JDC2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE19652319D22FE100938600 /* Build configuration list for PBXNativeTarget "JDC2" */;
+			buildPhases = (
+				BE1964F619D22FE100938600 /* Sources */,
+				BE1964F719D22FE100938600 /* Frameworks */,
+				BE1964F819D22FE100938600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDC2;
+			productName = JDC2;
+			productReference = BE1964FA19D22FE100938600 /* JDC2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE19651819D22FE100938600 /* JDC2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE19652619D22FE100938600 /* Build configuration list for PBXNativeTarget "JDC2Tests" */;
+			buildPhases = (
+				BE19651519D22FE100938600 /* Sources */,
+				BE19651619D22FE100938600 /* Frameworks */,
+				BE19651719D22FE100938600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE19651B19D22FE100938600 /* PBXTargetDependency */,
+			);
+			name = JDC2Tests;
+			productName = JDC2Tests;
+			productReference = BE19651919D22FE100938600 /* JDC2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE1964F219D22FE100938600 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Jason Chaney";
+				TargetAttributes = {
+					BE1964F919D22FE100938600 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = PBA4279W4R;
+					};
+					BE19651819D22FE100938600 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = BE1964F919D22FE100938600;
+					};
+				};
+			};
+			buildConfigurationList = BE1964F519D22FE100938600 /* Build configuration list for PBXProject "JDC2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE1964F119D22FE100938600;
+			productRefGroup = BE1964FB19D22FE100938600 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE1964F919D22FE100938600 /* JDC2 */,
+				BE19651819D22FE100938600 /* JDC2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE1964F819D22FE100938600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE19650F19D22FE100938600 /* Main.storyboard in Resources */,
+				BE19651419D22FE100938600 /* LaunchScreen.xib in Resources */,
+				BE19651119D22FE100938600 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE19651719D22FE100938600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE1964F619D22FE100938600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE19650919D22FE100938600 /* DataViewController.m in Sources */,
+				BE19650319D22FE100938600 /* AppDelegate.m in Sources */,
+				BE19650C19D22FE100938600 /* ModelController.m in Sources */,
+				BE19650019D22FE100938600 /* main.m in Sources */,
+				BE19650619D22FE100938600 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE19651519D22FE100938600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE19652019D22FE100938600 /* JDC2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE19651B19D22FE100938600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE1964F919D22FE100938600 /* JDC2 */;
+			targetProxy = BE19651A19D22FE100938600 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE19650D19D22FE100938600 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE19650E19D22FE100938600 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE19651219D22FE100938600 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE19651319D22FE100938600 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE19652119D22FE100938600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE19652219D22FE100938600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE19652419D22FE100938600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JDC2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE19652519D22FE100938600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JDC2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE19652719D22FE100938600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JDC2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JDC2.app/JDC2";
+			};
+			name = Debug;
+		};
+		BE19652819D22FE100938600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JDC2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JDC2.app/JDC2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE1964F519D22FE100938600 /* Build configuration list for PBXProject "JDC2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE19652119D22FE100938600 /* Debug */,
+				BE19652219D22FE100938600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE19652319D22FE100938600 /* Build configuration list for PBXNativeTarget "JDC2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE19652419D22FE100938600 /* Debug */,
+				BE19652519D22FE100938600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE19652619D22FE100938600 /* Build configuration list for PBXNativeTarget "JDC2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE19652719D22FE100938600 /* Debug */,
+				BE19652819D22FE100938600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE1964F219D22FE100938600 /* Project object */;
+}
